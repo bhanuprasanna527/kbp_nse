@@ -1,0 +1,23 @@
+.
+├── README.md
+├── kbp_nse
+│   ├── __init__.py
+│   ├── get_company.py
+│   ├── get_csvurl.py
+│   └── time_interval.py
+├── kbp_nse.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   └── top_level.txt
+├── requirements.txt
+├── setup.cfg
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── test_myfunctions.py
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    └── pyvenv.cfg
