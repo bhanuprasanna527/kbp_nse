@@ -4,9 +4,15 @@ kbp_nse is a Python library for getting stock data with more features. We use th
 
 Let us take a look at How we can get the Stock Data? Let us see what normal stock data with fewer features look like:
 
-| Date | Open | Close | High | Low | Volume |
+| Series | Open | Close | High | Low | Volume |
 |------|------|-------|------|-----|--------|
 
+Now let us see the data that we are extracting for Individual companies listed in the National Stock Exchange:
+
+ LAST_PRICE	 CLOSE_PRICE	 AVG_PRICE	 TTL_TRD_QNTY	 TURNOVER_LACS	 NO_OF_TRADES	 DELIV_QTY	 DELIV_PER
+
+| SYMBOL | SERIES	DATE1 | PREV_CLOSE | OPEN_PRICE | HIGH_PRICE | LOW_PRICE | LAST_PRICE | CLOSE_PRICE | AVG_PRICE | TTL_TRD_QNTY | TURNOVER_LACS | NO_OF_TRADES | DELIV_QTY | DELIV_PER |
+|------|------|-------|------|-----|--------|------|------|-------|------|-----|--------| ------ | ------ |
 
 ## Installation
 
