@@ -110,8 +110,6 @@ def get_interval(year_from: int, month_from: int):
                 else:
                     daystr = str(k)
                 fin_date = datetime.datetime(int("20{y}".format(y = i)), j, k)
-                if fin_date in hol2020:
-                    print(True)
                 if fin_date.weekday() <= 4 and fin_date not in hol2022 and fin_date not in hol2021 and fin_date not in hol2020 and fin_date not in hol2019:
                     ex_hol.append(fin_date)
     return ex_hol

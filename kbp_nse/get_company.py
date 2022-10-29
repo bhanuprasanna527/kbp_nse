@@ -26,5 +26,5 @@ def specific_company(symbol = "RELIANCE"):
                 header = df.columns
                 writer.writerow(header)
                 flag = 0
-            data = df.loc[df['SYMBOL'] == 'RELIANCE'].values.tolist()
+            data = df.loc[df['SYMBOL'] == symbol].values.tolist()
             writer.writerow(data[0])
